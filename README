@@ -1,0 +1,38 @@
+WARNING: Makeiso.2014-10-8 is an alpha development release that has been minamally tested. This script must be run as root. READ the script to assure yourself all is ok prior to running. If you are unsure, I'd advise you to not use Makeiso at this stage.
+
+Makeiso dependencies must be manually installed: archiso pacaur sudo
+ 
+
+Instructions for testing:
+
+1) Make directory /home/<username>/makeiso/ to uncompress the tarball contents.
+   
+2) Enter releng, open a terminal and su to root. Run ./makeiso
+
+
+Makeiso will collect system and user config files, create a list of explicitly installed packages, pre-build all the buildable AUR packages on your system, and install all this into releng, then it will pass info to user prior to starting the iso build process.
+
+---------------------------------------------------------------------
+The iso image will be placed in /home/<username>/makeiso/releng/iso/
+---------------------------------------------------------------------
+
+See the following directories prior to building the iso to see results.
+ 
+/tmp/makeiso/  
+/tmp/pacaurtmp-<username>/
+/home/<username>/makeiso/releng/airootfs/makeiso/
+
+
+The script will list any failed AUR builds as ":: failed to build ....."
+This may be due to various reasons from AUR script issues to dependency resolution issues, etc. Check if you can currently, manually build the failed packages on your system. 
+ 
+----------------------------------------------------------------
+makeiso.sh log /home/<username>/makeiso/releng/makeiso.log
+----------------------------------------------------------------
+
+Feedback, input, suggestions welcome! 
+
+jeffsa12 (at) yahoo (dot) com 
+https://github.com/jeffscode/Makeiso
+http://www.evolutionlinux.com/jeffs-linux-blog.html
+Archiso wiki: https://wiki.archlinux.org/index.php/Archiso

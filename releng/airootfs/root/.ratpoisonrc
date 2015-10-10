@@ -1,0 +1,13 @@
+bind d exec dillo
+bind g exec gparted
+bind q quit
+bind t exec lxterminal
+
+set border 0
+
+exec xsetroot -solid black -cursor_name left_ptr
+exec lxterminal && cat /root/startmessage
+
+exec /usr/bin/rpws init 6 -k
+# Switch between workspaces with Alt+F1, Alt+F2, etc.
+

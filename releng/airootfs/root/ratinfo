@@ -1,0 +1,28 @@
+
+Ctrl+t ! <Program Name> Start any program
+
+Ctrl+t ? Show key bindings
+
+Ctrl+t c Start an X terminal
+
+Ctrl+t n Switch to next window
+
+Ctrl+t p Switch to previous window
+
+Ctrl+t 1-9 Switch to windows 1-9
+
+Ctrl+t k Close the current window
+
+Ctrl+t Shift+k XKill the current application
+
+Ctrl+t s,Shift+s Split the current frame into two vertical,horizontal ones
+
+Ctrl+t Tab, ←, ↑, →, ↓ Switch to the next, left. top, right, bottom frame.
+
+Ctrl+t Shift+q Make the current frame the only one
+
+Ctrl+t : Execute a ratpoison command 
+
+
+
+ 

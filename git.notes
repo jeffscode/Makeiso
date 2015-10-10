@@ -1,0 +1,27 @@
+##########################################################################################
+git sucks! want to work on code, not waste time learning this
+##########################################################################################
+
+# git init
+# git add .
+# git config --global user.email "jeffsa12@yahoo.com"
+# git config --global user.name "jeff"
+# git commit -m 'First commit'
+# git remote add origin git@github.com:jeffscode/Makeiso.git
+
+# git push -u origin master
+
+###########################################
+
+Un 'https://github.com': jeffscode
+Pw 'https://jeffscode@github.com': (old kitty)(UC) ######## (number)
+
+ssh-keygen -t rsa -b 4096 -C "jeffsa12@yahoo.com"
+Enter passphrase ALL UC (old kitty)
+
+# leafpad ~/.ssh/id_rsa.pub file
+
+#######################################
+
+# git status
+

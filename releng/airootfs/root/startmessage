@@ -1,0 +1,32 @@
+
+
+Welcome to the Evolution Linux Project installer for Makeiso. You are
+root with no password required.
+
+The live environment is ratpoison with rpws and lxterminal started. 
+Ratpoison is known as the nothing to see or show, very minimal WM. 
+You can switch between workspaces with [Alt]+[F1] through [F6].
+Press [Ctrl]+[t] keys, release, then press t to renew lxterm in new workspace. 
+Press [Ctrl]+[t] keys, release, then press ? for keybindings list.
+
+You're in a bash shell with the following aliases set up:
+   s    =  startx
+   t	=  Lxterminal
+   g	=  Gparted
+   p	=  Parted
+   f	=  Fdisk
+   apg	=  Arch partitioning guide
+   aig	=  Arch install guide
+   awd	=  Arch wiki in Dillo
+   awl	=  Arch wiki in Links
+   krp  =  Kill Ratpoison
+   rkb	=  Ratpoison key bindings
+   inf	=  this information 
+   mst  =  Minstall installer
+
+To switch TTY's, press [Ctrl]+[Alt]+[F2] through [F6]. 
+
+Default Linux Vbox TTY's, right side [Ctrl]+[F2] through [F6]
+
+
+
