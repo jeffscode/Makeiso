@@ -37,8 +37,10 @@
 #-------------------------------
 # Check if archsio is installed
 #-------------------------------
-	AI=$(pacman -Q archiso)
-	if [[ "$AI" != archiso* ]]; then
+archiso_installed() {
+  [[ which build.sh > /dev/null ]]
+}
+	if ! archiso_installed ; then
 	    echo " ERROR: archiso needs to be installed before running makeiso" 1>&2
 	    exit 1
 	fi
